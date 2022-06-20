@@ -1,0 +1,1086 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* 
+===========================================================================================
+================================== Start Css Styling =============================================
+============================================================================================
+ */
+
+/* ==================== Start General  styling====================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+    line-height: 27px !important;
+}
+h1,h2,h3,h4{
+   font-weight: 700 !important;
+}
+
+/* ==================== END General  styling====================*/
+
+/* ====================Start Common  styling====================*/
+
+a,a:hover{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+}
+input:focus,
+textarea:focus{
+   outline: 0;
+}
+.sectionPadding{
+   padding-top: 80px;
+}
+a.mainBtn {
+   display: inline-block;
+   padding: 10px 20px;
+   color: #fff;
+   text-transform: uppercase;
+   border-radius: 30px;
+   background: #ee2d50;
+   transition: all .4s linear;
+   border: 2px solid transparent;
+}
+a.mainBtn:hover {
+   background: transparent;
+   color: #ee2d50;
+   border: 2px solid #ee2d50;
+}
+
+  
+/* ==================== END Common   styling====================*/
+
+
+/* ====================Start Menu Area styling====================*/
+.active {
+   color: #ee2d50 !important;
+ }
+ 
+ #menu nav {
+   line-height: 60px;
+   background: #ffffff !important;
+   font-weight: 600;
+ }
+ 
+ #menu nav .navbar-brand {
+   font-size: 25px;
+   font-weight: 400;
+ }
+ 
+ #menu nav .navbar-brand .logo {
+   color: #ee2d50;
+   font-weight: 700;
+ }
+ 
+ #menu nav .menu li a {
+   padding-right: 20px !important;
+   color: #101F41;
+ }
+ 
+ #menu nav .menu li a:hover {
+   color: #ee2d50;
+ }
+ #menu nav .menu-btn{
+    margin-left: 50px;
+ }
+ #menu nav .menu-btn .bg-light {
+   padding: 10px 20px !important;
+   background: #ffffffff !important;
+   color: #ee2d50;
+   border: 1px solid #ee2d50;
+   
+ }
+ 
+ #menu nav .menu-btn .btn-primary {
+   padding: 10px 20px !important;
+   background: #ee2d50 !important;
+   color: #ffffffff;
+   border: 1px solid #ee2d50;
+ }
+
+
+/* ==================== End Menu Area styling====================*/
+
+/* ==================== End Menu Area styling====================*/
+.headerContent {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.headerContent h5 {
+   font-size: 16px;
+   position: relative;
+}
+
+.headerContent h5:before {
+   position: absolute;
+   content: '';
+   top: -5px;
+   left: 0;
+   height: 1px;
+   width: 40px;
+   background: red;
+}
+
+.headerContent h2 {
+   font-size: 40px;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+.headerImg {
+   position: relative;
+   height: 80vh;
+   width: 100%;
+   text-align: end;
+   margin-top: 15px;
+}
+
+img#svg {
+   width: 85%;
+   height: 100%;
+}
+
+/* ==================== End Menu Area styling====================*/
+
+/* ==================== Start Feature Area styling====================*/
+.feature-item {
+   padding: 50px 20px;
+   background: #ffffffff;
+   border-radius: 5px;
+   text-align: center;
+   border: 1px solid #F3F5FF;
+   transition: 0.4s;
+ }
+ 
+.feature-item:hover {
+   box-shadow: 0px 11px 12px 4px #ee2d508f;
+   margin-top: -10px;
+ }
+ 
+.feature-item i {
+   height: 45px;
+   width: 45px;
+   line-height: 45px;
+   background-color: #ee2d50;
+   border-radius: 5px;
+   color: #ffffffff;
+   margin-bottom: 30px;
+ }
+ 
+.feature-item h3 {
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 30px;
+ }
+ 
+.feature-item a {
+   color: #ee2d50;
+   text-decoration: none;
+   transition: 0.4s;
+ }
+ 
+ .feature-item a:hover {
+      margin-left: 10px;
+ }
+ 
+/* ==================== End Feature Area styling====================*/
+
+/* ==================== Start Service Area styling====================*/
+.serviceHeadImg img {
+   width: 90%;
+   height: 450px;
+}
+
+.serviceHeadImg {
+   position: relative;
+   left: 10%;
+   top: -40px;
+}
+.details .rank {
+   color: #ee2d50;
+ }
+ 
+ #serviceHead .details h3 {
+   font-size: 35px;
+   font-weight: 600;
+   margin: 30px 0px;
+ }
+
+ .sectionHead {
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+.sectionHead h2 {
+   text-transform: uppercase;
+   font-size: 30px;
+   position: relative;
+}
+.service-item {
+   text-align: center;
+   padding: 30px 15px;
+   transition: all .3s ease-in,transform .3s ease-in;
+   position: relative;
+   overflow: hidden;
+}
+
+.service-item:hover {
+   background: #ee2d50;
+   transform: translateY(-3px);
+   color: #fff;
+}
+
+.service-item:before {
+   content: '';
+   position: absolute;
+   right: -40px;top: -40px;
+   transition: all .3s ease-out;
+   border-width: 20px;
+   border-style: solid;
+   border-color: #fff #fff rgba(1,1,1,.4) rgba(0,0,0,.4);}
+
+.service-item:hover:before {
+   top: -2px;
+   right: 0;
+}
+
+.service-item .icon-box i {
+   font-size: 50px;
+   margin-bottom: 20px;
+   /* transition: all .3s ease-in-out; */
+}
+
+.service-item .details h3 {
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+
+/* ==================== End Service Area styling====================*/
+
+/* ==================== Start Counter Area styling====================*/
+section#counter .sectionHead h2 {
+   font-size: 24px;
+   padding: 0 50px;
+}
+.counterBox {
+   padding: 20px;
+   background: #F3F5FF;
+   width: 100%;
+   border-radius: 10px;
+   transition: 0.4s;
+ }
+ 
+.counterBox:hover {
+   box-shadow: 0px 5px 12px 4px rgba(16, 31, 65, 0.25);
+ }
+ .counterBox i {
+   font-size: 40px;
+   color: #ee2d50;
+ }
+ .counterBox .count {
+   font-size: 50px;
+   margin: 25px 0;
+   font-weight: 600;
+}
+
+/* ==================== End Counter Area styling====================*/
+
+/* ====================Start Testimonial area styling====================*/
+
+#testimonail{
+   margin-top: 80px;
+   padding: 80px 0;
+ background: #F3F5FF;
+}
+ol.carousel-indicators {
+   bottom: -40px !important;
+}
+.carousel-indicators li {
+   width: 15px !important;
+   height: 15px !important;
+   border-radius: 50%;
+   background-color: #f8022f8a !important;
+}
+.carousel-indicators li.active{
+   background-color: #ee2d50 !important;
+}
+#testimonail .content p {
+   font-size: 18px;
+   font-style: oblique;
+   margin-top: 25px;
+   color: #333;
+}
+#testimonail .content img {
+   width: 80px;
+   height: 80px;
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+#testimonail .content i {
+   font-size: 50px;
+   color: #ee2d50;
+}
+#testimonail .content {
+   text-align: center;
+}
+/* ====================End Testimonial area styling====================*/
+
+/* ==================== Start Team Area styling====================*/
+.teamImg img {
+   height: 450px;
+   width: 100%;
+}
+
+p.team-heading {
+   color: #ee2d50;
+}
+
+.teamContent h3 {
+   font-size: 40px;
+   margin-bottom: 15px;
+}
+
+.teamContent {
+   padding-right: 30px;
+   padding-left: 10px;
+   padding-top: 20px;
+}
+/* ==================== End Team Area styling====================*/
+
+/* ==================== Start Pricing Area styling====================*/
+#pricing{
+   text-align: center;
+}
+.pricing-item-content {
+   margin-top: 40px;
+   border: 1px solid rgba(0,0,0,.125);
+   padding: 20px;
+}
+.pricing-item-content:hover{
+  border: 1px solid rgba(0, 0, 0, 0.078);
+   box-shadow: 0px 10px 25px rgba(0,0,0,.125);
+   border-radius: 10px;
+}
+.pricing-item-content span i{
+   font-size: 30px;
+   margin-top: 20px;
+   color: #808080;
+}
+.pricing-item-content h3{
+   font-size: 30px;
+   font-weight: 400;
+   margin-top: 10px;
+   position: relative;
+   transition: .4s;
+}
+.pricing-item-content:hover h3{
+   color: #ee2d50;
+}
+.pricing-item-content h3::after{
+   content: '';
+   width: 70%;
+   height: 1px;
+   left: 15%;
+   bottom: -15px;
+   background: #808080;
+  opacity: .5;
+   position: absolute;
+}
+.pricing-item-content h2{
+   margin-top: 30px;
+   font-size: 40px;
+   color: #333;
+   position: relative;
+
+}
+.pricing-item-content:hover h2{
+   color: #ee2d50;
+}
+.pricing-item-content h2 span{
+   font-size: 20px;
+   margin-left: -8px;
+   transition: .4s;
+}
+.pricing-item-content:hover h2 span.month{
+  color: #333;
+}
+.pricing-item-content h2 span.month{
+   color: #ee2d50;
+   margin-left: 10px;
+   font-weight: 400;
+}
+.pricing-item-content h2::after{
+  content: '';
+  width: 70%;
+  height: 1px;
+  left: 15%;
+  bottom: -15px;
+  background: #808080;
+  opacity: .5;
+  position: absolute;
+}
+.pricing-item-content ul{
+  margin-top: 30px;
+  list-style: none;;
+}
+.pricing-item-content ul li{
+  font-size: 17px;
+  font-weight: 400;
+  margin: 15px 0px;
+  color: #777;
+}
+.pricing-item-content .btn{
+  background: #ee2d50;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  transition: .3s;
+}
+.pricing-item-content .btn2{
+  background: transparent;
+  color: #ee2d50;
+  border: 1px solid #ee2d50;
+}
+.pricing-item-content .btn2:hover{
+  background: #ee2d50 !important;
+  color: #fff !important;
+}
+.pricing-item-content .btn:hover{
+  border: 1px solid #ee2d50;
+  color: #ee2d50;
+  background: transparent;
+}
+/* ==================== End Pricing Area styling====================*/
+
+/* ==================== Start Blog Area styling====================*/
+.blogItem {
+   box-shadow: 0px 0px 14px 2px rgba(16, 31, 65, 0.25);
+   border-radius: 5px;
+   overflow: hidden;
+   margin-bottom: 30px;
+ }
+ 
+ .blogItem:hover .blog-image img {
+   transform: scale(1.1, 1.1);
+ }
+ 
+.blog-image {
+   position: relative;
+   overflow: hidden;
+ }
+
+.blog-image img {
+   transition: 0.4s;
+ }
+ 
+.blog-image h5 {
+   box-sizing: border-box;
+   padding: 10px;
+   background: #ee2d50;
+   color: #ffffffff;
+   font-size: 18px;
+   border-radius: 5px;
+   text-align: center;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+ }
+ 
+.blog-image h5 span {
+   display: block;
+ }
+ 
+.blog-image h5 .date {
+   font-size: 20px;
+   font-weight: 600;
+ }
+ 
+.blog-image .tags {
+   position: absolute;
+   bottom: 10px;
+   left: 15px;
+   font-size: 14px;
+ }
+ 
+.blog-image .tags .btn-primary {
+   background: #ee2d50;
+   border: 0px;
+   margin-right: 5px;
+ }
+ 
+.blogItem .content {
+   padding: 30px 20px;
+ }
+ 
+.blogItem .content a {
+   font-size: 24px;
+   font-weight: 600;
+   color: #101F41;
+   text-decoration: none;
+   margin-bottom: 20px;
+   display: block;
+ }
+ 
+ .blogItem .content .user {
+   font-size: 14px;
+   font-weight: 400;
+   font-style: italic;
+ }
+ 
+.blogItem .content .user i {
+   color: #ffffffff;
+   text-align: center;
+   height: 25px;
+   width: 25px;
+   border-radius: 100%;
+   line-height: 25px;
+   background: #ee2d50;
+   margin-right: 5px;
+ }
+
+ a.blogBtn {
+   font-size: 18px !important;
+   color: #333 !important;
+   transition: all .3s ease-in;
+   margin-bottom: 0 !important;
+}
+a.blogBtn:hover {
+   transform: translateX(5px);
+   color: #ee2d50 !important;
+}
+/* ==================== End Blog Area styling====================*/
+
+/* ==================== Start Footer Area styling====================*/
+footer {
+   background: #f3f5ff;
+   margin-top: 80px;
+}
+footer h5 {
+   font-size: 24px;
+   font-weight: 600;
+}
+
+a.brand {
+   font-size: 24px;
+   font-weight: 700;
+   color: #333;
+   display: inline-block;
+   margin-bottom: 15px;
+}
+
+span.logo {
+   color: #ee2d50;
+}
+
+ul.socialFooter {
+   display: flex;
+}
+
+ul.socialFooter li a {
+   color: #333;
+   margin-right: 10px;
+   border: 1px solid #333;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   text-align: center;
+   line-height: 40px;
+   font-size: 22px;
+   transition: all .3s ease-in-out;
+}
+
+ul.socialFooter li a:hover {
+   background: #dc3545;
+   color: #fff;
+}
+
+ul.links li a {
+   color: #333;
+   font-weight: 600;
+}
+
+.footerCopy p {
+   font-weight: 600;
+   margin-top: 10px;
+}
+/* ==================== End Footer Area styling====================*/
+
+section#head {
+   background: #2e3e8c;
+   padding: 80px 0;
+   text-align: center;
+   color: #fff;
+}
+
+section#head h2 {
+   font-size: 40px;
+}
+
+section#head p a {
+   color: #fff;
+}
+
+section#head p span {
+   color: #ee2d50;
+}
+
+/* ==================== Start Contact Area styling====================*/
+#contact .contact-box {
+   padding: 30px;
+   position: relative;
+   background: #F3F5FF;
+   border-radius: 5px;
+   overflow: hidden;
+   transition: 0.4s;
+ }
+ 
+ #contact .contact-box:hover .icon-2 {
+   bottom: 10px;
+   right: 10px;
+ }
+ 
+ #contact .contact-box:hover {
+   box-shadow: 0px 0px 14px 2px rgba(16, 31, 65, 0.25);
+ }
+ 
+ #contact .contact-box i.icon-1 {
+   font-size: 40px;
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+   line-height: 80px;
+   background: #ee2d50;
+   color: #ffffffff;
+   margin-bottom: 30px;
+ }
+ 
+ #contact .contact-box p {
+   font-size: 20px;
+ }
+ 
+ #contact .contact-box .icon-2 {
+   transition: 0.4s;
+   position: absolute;
+   font-size: 90px;
+   color: #ee2d50;
+   opacity: 0.3;
+   bottom: -10px;
+   right: -10px;
+ }
+ 
+ #contact .contact-head {
+   font-size: 30px;
+   position: relative;
+   margin-left: 60px;
+   margin-bottom: 30px;
+ }
+ 
+ #contact .contact-head::before {
+   content: '';
+   position: absolute;
+   height: 2px;
+   width: 50px;
+   background: #ee2d50;
+   bottom: 5px;
+   left: -60px;
+ }
+ 
+ #contact .input-group-text {
+   background: #ee2d50 !important;
+   color: #ffffffff !important;
+   font-size: 20px !important;
+ }
+ 
+ #contact .btn-primary {
+   background: #ee2d50;
+   padding: 10px 30px;
+   border: none;
+ }
+ 
+ #contact input::placeholder, 
+ #contact textarea:focus::placeholder {
+   transition: 0.4s;
+ }
+ #contact input:focus::placeholder, 
+ #contact textarea:focus::placeholder {
+      transform: translateX(-250px);
+ }
+ 
+ #contact .contact-form {
+   margin-top: 50px;
+ }
+ iframe {
+   width: 100%;
+}
+/* ==================== End Contact Area styling====================*/
+
+/* ==================== Start Team Area styling====================*/
+.team-item img {
+   width: 100%;
+   height: 400px;
+}
+.team-item {
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+.team-content {
+   position: absolute;
+   bottom: -170px;
+   left: 0;
+   right: 0;
+   background: #000;
+   transition: all .3s linear;
+}
+.team-content ul {
+   list-style: none;
+   margin-bottom: 20px !important;
+}
+.team-content ul li a {
+   text-decoration: none;
+   color: #ee2d50;
+   margin-left: 5px;
+   margin-right: 5px;
+   transition: all .3s linear;
+}
+.team-content ul li a:hover{
+   color: #fff;
+}
+.team-content ul li a i:before{
+   margin-left: 0;
+}
+.team-content ul li {
+   display: inline-block;
+}
+.team-content h4 {
+   color: #ee2d50;
+   padding-top: 10px;
+   margin: 0;
+}
+.team-content h5 {
+   color: #eee;
+}
+.team-content:before {
+   clip-path: polygon(100% 50%,0 100%,100% 100%);
+   content: '';
+   position: absolute;
+   top: -113px;
+   left: 0;
+   width: 100%;
+   height: 114px;
+   background: #000;
+}
+
+.team-item:hover .team-content {
+   bottom: 0;
+}
+/* ==================== End Team Area styling====================*/
+
+/* ==================== Start Blog Area styling====================*/
+.blogPageNo {
+   margin-top: 40px;
+ }
+ 
+ .blogPageNo li {
+   list-style: none;
+   display: inline-block;
+ }
+ 
+ .blogPageNo a {
+   display: block;
+   text-align: center;
+   padding: 7px 12px;
+   border-radius: 5px;
+   margin-right: 5px;
+   background: #ee2d50;
+   color: #ffffffff !important;
+   text-decoration: none !important;
+   -webkit-transition: 0.4s;
+   transition: 0.4s;
+ }
+ 
+ .blogPageNo a:hover {
+   background: #F3F5FF;
+   color: #ee2d50 !important;
+ }
+/* ==================== End Blog Area styling====================*/
+
+/* ==================== Start Blog-details Area styling====================*/
+.blog-main-im img {
+   width: 100%;
+   height: 450px;
+   transition: .4s;
+}
+.blog-main-im {
+   position: relative;
+   overflow: hidden;
+}
+.blog-main-im img:hover {
+   transform: scale(1.3);
+   opacity: .8;
+}
+.blog-content {
+   padding: 15px 20px;
+}
+p.post-date {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+p.post-date i {
+  color: #ee2d50;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+h2.blog-tittle {
+   text-transform: uppercase;
+   font-weight: 600;
+}
+p.middlePara {
+   padding-left: 30px;
+   font-size: 18px;
+   position: relative;
+   padding-top: 5px;
+   margin: 30px 0;
+   font-weight: 600;
+}
+p.middlePara:before {
+   content: '';
+   position: absolute;
+   width: 5px;
+   height: calc(100% + 20px);
+   background: #ee2d50;
+   left: 0;top: -7px;
+}
+.blog-tags {
+   margin-bottom: 20px;
+   word-spacing: 5px;
+} 
+.blog-tags i{
+  color: #ee2d50;
+}
+.share-post {
+   text-transform: uppercase;
+   font-size: 18px;
+   margin-bottom: 30px;
+   margin-top: 25px;
+}
+.share-post a {
+   margin-left: 10px;
+   background: #333;
+   color: #fff;
+   padding: 0px 5px;
+   text-decoration: none;
+   transition: .3s;
+}
+.share-post a:hover {
+   color: #ffffff;
+   background: #ee2d50;
+   text-decoration: underline;
+}
+.comment-area h3 {
+   font-weight: 600;
+   margin-bottom: 25px;
+   margin-top: 30px;
+}
+.comment-item img {
+   width: 100px;
+   height: 100px;
+   float: left;
+   border-radius: 50%;
+}
+.comment-content {
+   margin-left: 115px;
+}
+.comment-item {
+   margin-bottom: 25px;
+}
+.comment-item.comment-left {
+   margin-left: 100px;
+}
+.comment-content p {
+   margin-bottom: 5px;
+}
+p.comment-date {
+   font-size: 14px;
+}
+p.comment-date a {
+   margin-left: 10px;
+}
+.comment-content h5 {
+   font-weight: 600;
+   padding-top: 5px;
+}
+.comment-reply {
+   margin-top: 30px;
+}
+.comment-reply h3 {
+   margin-bottom: 30px;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+.reply-form input {
+   margin-bottom: 10px;
+}
+input.reply-btn {
+   margin-top: 20px;
+   background: #ee2d50;
+   padding: 5px 20px;
+   color: #fff;
+   font-weight: 600;
+   border: 1px solid transparent;
+   transition: .3s;
+}
+input.reply-btn:hover {
+   border: 1px solid #ffc925;
+   color: #ee2d50;
+   background: transparent;
+   border-radius: 5px;
+}
+.comment-reply input {
+   margin-bottom: 10px;
+}
+
+.search{
+  background: #f0f0f0;
+  padding: 20px;
+}
+.categories{
+  margin-top: 30px;
+}
+.categories h4{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.categories ul{
+  list-style: none;
+}
+.categories ul li{
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #8080809d;
+}
+.categories ul li span{
+  float: right;
+  background: #ee2d50;
+  border-radius: 4px;
+  padding: 0px 5px;
+  color: #fff;
+}
+.latest-post{
+   margin-top: 30px;
+}
+.latest-post h4{
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.latest-post img{
+   width: 70px;
+   height: 70px;
+   float: left;
+}
+.latest-content{
+  margin-left: 85px;
+}
+.latest-post ul{
+  margin-top: 30px;
+  list-style: none;
+}
+.latest-post ul li{
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.latest-content h5{
+  font-size: 16px;
+  font-weight: 600;
+}
+.latest-content p{
+  font-size: 14px;
+}
+.latest-content p i{
+  margin-right: 5px;
+}
+.tag-list h5{
+  font-weight: 700;
+}
+.tag-list ul{
+  list-style: none;
+}
+.tag-list ul li{
+  display: inline-block;
+  background: #ee2d50;
+  border: 1px solid transparent;
+  padding: 3px 7px;
+  margin-bottom: 5px;
+  color: #fff;
+  transition: .4s;
+}
+.tag-list ul li:hover{
+  border: 1px solid #ee2d50;
+  background: transparent;
+  color: #ee2d50;
+}
+/* ==================== End Blog-details page styling====================*/
+
+/* ==================== Start About Area styling====================*/
+#about h5 {
+   font-size: 24px;
+   color: #ee2d50;
+   position: relative;
+   margin-left: 60px;
+ }
+ 
+ #about h5::before {
+   content: '';
+   position: absolute;
+   height: 2px;
+   width: 50px;
+   background: #ee2d50;
+   bottom: 5px;
+   left: -60px;
+ }
+ 
+ #about h2 {
+   font-weight: 600;
+   margin: 20px 0px;
+ }
+ 
+ #about ul {
+   padding: 0;
+ }
+ 
+ #about ul li {
+   list-style: none;
+   margin: 10px 0;
+ }
+ 
+ #about ul li::before {
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+   content: "\f00c";
+   margin-right: 10px;
+   color: #ee2d50;
+ }
+ .aboutImg img {
+   height: 460px;
+   width: 100%;
+}
+
+/* ==================== End About Area styling====================*/
+

@@ -1,0 +1,63 @@
+/* 
+============================================================================================
+================================== Start Responsive Styling ==========================================
+============================================================================================
+ */
+ 
+ @media (max-width: 575.98px) { 
+    .blog-content {
+        padding: 15px 5px;
+    }
+    .share-post a {
+        font-size: 14px;
+    }
+    .comment-item.comment-left {
+        margin-left: 20px;
+    }
+ }
+ @media (max-width: 767.98px) { 
+    .sectionHead {
+        width: 90%;
+    }
+
+ }
+ @media (max-width: 991.98px) { 
+    .nav-link {
+        padding: 0px !important;
+    }
+    #menu .menu-btn .pl-3 {
+        padding-left: 0px !important;
+      }
+      .headerContent {
+        padding-top: 20px;
+    }
+    .serviceHeadOder {
+        order: 2;
+    }
+    .serviceHeadImg {
+        left: 10%;
+        top: 0px;
+    }
+    section#counter .sectionHead h2 {
+        padding: 0px;
+    }
+    #testimonail .content {
+        margin-top: 30px;
+    }
+    .teamOrder{
+        order: 2;
+    }
+    .aboutImg {
+        margin-top: 40px;
+    }
+
+ }
+ @media (max-width: 1199.98px) { 
+    #menu nav .menu-btn{
+        margin-left: 0px !important;
+     }
+     img#svg {
+        width: 100%;
+    }
+ 
+ }
